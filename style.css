@@ -1,0 +1,97 @@
+/* Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Custom animation for elements */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+/* Official Login Portal Styles */
+#login .bg-blue-800 {
+    background-color: #1e3a8a;
+}
+
+#login .bg-blue-50 {
+    background-color: #f0f9ff;
+}
+
+#login .border-blue-100 {
+    border-color: #dbeafe;
+}
+
+#login input:focus {
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Government-style elements */
+.gov-badge {
+    background-color: #f59e0b;
+    color: #1e3a8a;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+}
+
+/* Custom button styles */
+.btn-primary {
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Official form styles */
+.official-form {
+    border-radius: 4px;
+    border: 1px solid #d1d5db;
+    padding: 1.5rem;
+    background: white;
+}
+
+.official-form label {
+    font-weight: 600;
+    color: #374151;
+}
+
+.official-form input {
+    border: 1px solid #d1d5db;
+    padding: 0.75rem;
+}
+/* Custom card hover effect */
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2563eb;
+}
