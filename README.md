@@ -1,9 +1,10 @@
 # kelompok 8
-# 📌 Nama Project 
 
-Deskripsi singkat project kamu.  
-Contoh: Aplikasi web sederhana menggunakan PHP untuk manajemen data.
-
+---
+##di buat oleh
+#Muh. Rifal Febrian (221230682)
+#Syerly Wulandhany (221230696)
+#Qalbi Kinara Putri (221220653)
 ---
 
 ## ✨ Fitur
@@ -26,3 +27,4 @@ Contoh: Aplikasi web sederhana menggunakan PHP untuk manajemen data.
 ---
 
 ## 📂 Struktur Folder
+
