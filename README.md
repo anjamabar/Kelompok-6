@@ -1,7 +1,7 @@
 # kelompok 8
 
 ---
-##di buat oleh
+## di buat oleh
 
 - Muh. Rifal Febrian (221230682)
 - Syerly Wulandhany (221230696)
@@ -29,6 +29,7 @@
 ---
 
 ## 📂 Struktur Folder
+
 
 
 
